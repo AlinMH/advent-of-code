@@ -1,13 +1,25 @@
 INPUT_FILE = "PATH_TO_INPUT"
+TARGET_YEAR = 2020
 
-def solve():
+def part_1():
     with open(INPUT_FILE, "r") as fp:
         s = set(map(lambda x: int(x), fp))
         
         for elem in s:
-            if 2020 - elem in s:
-                return elem * (2020 - elem)
+            if TARGET_YEAR - elem in s:
+                return elem * (TARGET_YEAR - elem)
+
+def part_2():
+    with open(INPUT_FILE, "r") as fp:
+        s = set(map(lambda x: int(x), fp))
+        
+        for i in s:
+            for j in s:
+                if TARGET_YEAR - (i + j) in s:
+                    return i * j * (TARGET_YEAR - (i + j))
 
 if __name__ == "__main__":
-    result = solve()
+    result = part_1()
+    print(result)
+    result = part_2()
     print(result)
