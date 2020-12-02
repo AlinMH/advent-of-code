@@ -13,6 +13,7 @@ Directory structure:
 ├── ..
 ```
 
-** Solution written in python 3 🐍:
+Solution written in python 3 🐍:
+
 Website:
 https://adventofcode.com/
