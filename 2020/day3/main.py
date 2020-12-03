@@ -1,6 +1,6 @@
 from functools import reduce
 
-INPUT_FILE = "/home/alin_ubuntu/alin/python_stuff/advent-of-code/2020/day3/input"
+INPUT_FILE = "PATH_TO_INPUT"
 
 PART1_RIGHT = 3
 PART2_DOWN = 1
