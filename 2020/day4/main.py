@@ -1,6 +1,6 @@
 import re
 
-INPUT_FILE = "PATH_TO_INPUT"
+INPUT_FILE = "input"
 
 eye_colors = {"amb", "blu", "brn", "gry", "grn", "hzl", "oth"}
 

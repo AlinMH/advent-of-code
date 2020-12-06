@@ -1,6 +1,6 @@
 from functools import reduce
 
-INPUT_FILE = "PATH_TO_INPUT"
+INPUT_FILE = "input"
 
 PART1_RIGHT = 3
 PART2_DOWN = 1

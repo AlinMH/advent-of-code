@@ -1,4 +1,4 @@
-INPUT_FILE = "PATH_TO_INPUT"
+INPUT_FILE = "input"
 
 
 def part_1():

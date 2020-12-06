@@ -1,6 +1,6 @@
 from functools import reduce
 
-INPUT_FILE = "/home/alin_ubuntu/alin/python_stuff/advent-of-code/2020/day6/input"
+INPUT_FILE = "input"
 
 def part_1():
     with open(INPUT_FILE, "r") as fp:
