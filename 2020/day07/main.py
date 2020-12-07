@@ -23,7 +23,6 @@ def solve():
         l = 0
         while len(bags) > l:
             l = len(bags)
-            # Iterate over the rules, if the rule contains anything in the set bags, add the key for that rule to the set bags
             for key in rules:
                 if any(color in rules[key] for color in bags):
                     bags.add(key)
