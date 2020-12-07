@@ -5,10 +5,10 @@ Directory structure:
 ```
 .
 ├── 2020
-│   ├── day1
+│   ├── day01
 |       |── input
 |       |── main.py
-│   ├── day2
+│   ├── day02
 │   ├── ..
 ├── ..
 ```
