@@ -8,7 +8,7 @@ def part1():
 
         current = 0
         ranges = [1, 3]
-        
+
         ones = 0
         threes = 0
 
@@ -23,8 +23,9 @@ def part1():
 
                     numbers.remove(current)
                     break
-        
+
         return ones * (threes + 1)
+
 
 def part2():
     with open(INPUT_FILE, "r") as fp:
