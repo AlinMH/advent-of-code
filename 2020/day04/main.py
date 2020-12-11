@@ -1,6 +1,7 @@
 import re
+import os
 
-INPUT_FILE = "input"
+INPUT_FILE = os.path.join(os.path.dirname(__file__), "input")
 
 eye_colors = {"amb", "blu", "brn", "gry", "grn", "hzl", "oth"}
 

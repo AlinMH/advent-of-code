@@ -1,14 +1,15 @@
-INPUT_FILE = "input"
+import os
+
+INPUT_FILE = os.path.join(os.path.dirname(__file__), "input")
 
 
 def part1():
     with open(INPUT_FILE, "r") as fp:
         lines = fp.read().splitlines()
-        
+
         preamables = []
         numbers = list(map(int, lines))
         available_numbers = list(range(1, 26))
-
 
         for n in numbers:
             s = set(preamables[-25:] + available_numbers)
@@ -25,7 +26,6 @@ def part1():
             preamables.append(n)
 
 
-
 def part2(part1_ans):
     with open(INPUT_FILE, "r") as fp:
         lines = fp.read().splitlines()
@@ -38,7 +38,7 @@ def part2(part1_ans):
             while sum(current) < part1_ans:
                 current.append(numbers[next])
                 next += 1
-            
+
             if len(current) >= 2 and sum(current) == part1_ans:
                 return min(current) + max(current)
 

@@ -1,7 +1,9 @@
 from functools import reduce
 from collections import defaultdict, deque
 
-INPUT_FILE = "input"
+import os
+
+INPUT_FILE = os.path.join(os.path.dirname(__file__), "input")
 
 
 def solve():

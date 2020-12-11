@@ -1,4 +1,6 @@
-INPUT_FILE = "input"
+import os
+
+INPUT_FILE = os.path.join(os.path.dirname(__file__), "input")
 TARGET_YEAR = 2020
 
 

@@ -1,6 +1,7 @@
+import os
 from copy import deepcopy
 
-INPUT_FILE = "input"
+INPUT_FILE = os.path.join(os.path.dirname(__file__), "input")
 
 
 def num_adj_occ1(i, j, mat):
@@ -21,7 +22,6 @@ def num_adj_occ1(i, j, mat):
             yp += dy
 
     return num
-
 
 
 def num_adj_occ2(i, j, mat):

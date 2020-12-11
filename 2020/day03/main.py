@@ -1,6 +1,7 @@
 from functools import reduce
+import os
 
-INPUT_FILE = "input"
+INPUT_FILE = os.path.join(os.path.dirname(__file__), "input")
 
 PART1_RIGHT = 3
 PART2_DOWN = 1
