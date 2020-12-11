@@ -15,6 +15,6 @@ runs-on: ubuntu-latest
        python-version: 3.8 #install the python needed
    - name: execute time py script # run the run.py to get the latest data
      run: |
-       for d in ./*/*/ ; do                                                                                                                                  ok  20:57:11 
+       for d in ./*/*/ ; do
         time (python $d"main.py" > /dev/null)
-        done 
+        done
