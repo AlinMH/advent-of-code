@@ -1,5 +1,7 @@
 import os
+
 INPUT_FILE = os.path.join(os.path.dirname(__file__), "input")
+
 
 def part1():
     with open(INPUT_FILE, "r") as fp:
