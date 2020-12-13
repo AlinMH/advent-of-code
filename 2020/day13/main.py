@@ -1,6 +1,4 @@
 import os
-from copy import deepcopy
-import math as m
 from math import prod
 
 INPUT_FILE = os.path.join(os.path.dirname(__file__), "input")
