@@ -1,7 +1,6 @@
-import os
-from math import prod
-import re
 import itertools
+import os
+import re
 
 INPUT_FILE = os.path.join(os.path.dirname(__file__), "input")
 
@@ -52,7 +51,6 @@ def part2():
                     mem[address ^ mask_toggle] = value
 
         return sum(mem.values())
-
 
 
 if __name__ == "__main__":

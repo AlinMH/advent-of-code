@@ -1,7 +1,4 @@
 import os
-from math import prod
-import re
-import itertools
 
 INPUT_FILE = os.path.join(os.path.dirname(__file__), "input")
 

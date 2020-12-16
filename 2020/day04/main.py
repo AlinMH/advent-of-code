@@ -1,5 +1,5 @@
-import re
 import os
+import re
 
 INPUT_FILE = os.path.join(os.path.dirname(__file__), "input")
 

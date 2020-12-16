@@ -1,5 +1,5 @@
-from copy import deepcopy
 import os
+from copy import deepcopy
 
 INPUT_FILE = os.path.join(os.path.dirname(__file__), "input")
 
