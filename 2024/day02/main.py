@@ -1,3 +1,7 @@
+import os
+
+INPUT_FILE = os.path.join(os.path.dirname(__file__), "input.txt")
+
 def part1(matrix: list[list[str]]):
     num_safe = 0
 
@@ -63,7 +67,7 @@ def part2(matrix: list[list[str]]):
 
 
 if __name__ == '__main__':
-    with open("input.txt", "r") as file:
+    with open(INPUT_FILE, "r") as file:
         matrix = [list(line.split(" ")) for line in file]
 
     part2(matrix)

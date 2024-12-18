@@ -1,4 +1,7 @@
+import os
 import re
+
+INPUT_FILE = os.path.join(os.path.dirname(__file__), "input.txt")
 
 
 def part1(to_parse: str):
@@ -33,7 +36,7 @@ def part2(to_parse: str):
 
 
 if __name__ == '__main__':
-    with open("input.txt", "r") as f:
+    with open(INPUT_FILE, "r") as f:
         lines = f.readlines()
         line = "".join(lines)
         part2(line)
