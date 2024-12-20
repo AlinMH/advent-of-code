@@ -39,4 +39,5 @@ if __name__ == "__main__":
     with open(INPUT_FILE, "r") as f:
         lines = f.readlines()
         line = "".join(lines)
+        part1(line)
         part2(line)

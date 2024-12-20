@@ -71,4 +71,5 @@ if __name__ == "__main__":
     with open(INPUT_FILE, "r") as file:
         matrix = [list(line.split(" ")) for line in file]
 
+    part1(matrix)
     part2(matrix)

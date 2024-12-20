@@ -102,4 +102,5 @@ if __name__ == "__main__":
     with open(INPUT_FILE, "r") as f:
         lines = f.readlines()
         matrix = [list(line.strip()) for line in lines]
+        part1(matrix)
         part2(matrix)
