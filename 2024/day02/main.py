@@ -2,6 +2,7 @@ import os
 
 INPUT_FILE = os.path.join(os.path.dirname(__file__), "input.txt")
 
+
 def part1(matrix: list[list[str]]):
     num_safe = 0
 
@@ -46,7 +47,7 @@ def is_safe2(row: list[int]) -> bool:
         return True
 
     for i in range(0, len(row)):
-        res = is_safe(row[:i] + row[i + 1:])
+        res = is_safe(row[:i] + row[i + 1 :])
         if res:
             return True
 
@@ -66,7 +67,7 @@ def part2(matrix: list[list[str]]):
     print(num_safe)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     with open(INPUT_FILE, "r") as file:
         matrix = [list(line.split(" ")) for line in file]
 

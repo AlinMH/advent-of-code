@@ -35,7 +35,7 @@ def part2(to_parse: str):
     print(res_sum)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     with open(INPUT_FILE, "r") as f:
         lines = f.readlines()
         line = "".join(lines)
