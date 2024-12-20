@@ -17,7 +17,7 @@ jobs:
           python-version: 3.12  # install the python needed
       - name: execute time py script # run the run.py to get the latest data
         run: |
-          for d in ./*/*/ ; do
+          for d in ./2024/*/ ; do
             echo $d
             time (python $d"main.py" > /dev/null)
           done
